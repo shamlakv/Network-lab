@@ -1,0 +1,154 @@
+[mca@localhost ~]$ ls
+ 08_pgm2   Documents      hello.txt    mongodata2    Public       Templates
+ 18        Downloads      lab          mongodata3    q.c          Videos
+ 1.c       factorial.sh   MES          Music         rush.c
+ a         farook         mongod      'netwrk lab'   rushdha
+ a.out     forfact.sh     mongodata    Pictures      singleLL.c
+ Desktop   hello2.txt     mongodata1   program1.sh   soorya.txt
+[mca@localhost ~]$ ls -l
+total 80
+-rw-r--r--. 1 mca mca  1632 Mar 28  2023  08_pgm2
+drwxrwxr-x. 2 mca mca     6 Apr 13  2022  18
+-rw-rw-r--. 1 mca mca    64 Nov 18  2022  1.c
+-rw-rw-r--. 1 mca mca     5 Mar 13  2023  a
+-rwxrwxr-x. 1 mca mca 18352 Nov 11  2022  a.out
+drwxr-xr-x. 8 mca mca  4096 Jul 27  2023  Desktop
+drwxr-xr-x. 4 mca mca    39 Sep 19 04:23  Documents
+drwxr-xr-x. 2 mca mca  4096 Nov 25 03:56  Downloads
+-rwxrwxr-x. 1 mca mca   151 Apr 26  2022  factorial.sh
+drwxr-xr-x. 2 mca mca    67 Sep 15 06:39  farook
+-rwxrwxr-x. 1 mca mca    99 Apr 26  2022  forfact.sh
+-rwxrwxrwx. 1 mca mca    61 Mar 22  2023  hello2.txt
+-rwxrwxrwx. 1 mca mca    67 Mar 22  2023  hello.txt
+drwxrwxr-x. 2 mca mca    99 Apr 12  2023  lab
+drwxrwxr-x. 7 mca mca    60 Mar 14  2023  MES
+drwxr-xr-x. 2 mca mca     6 Aug 22 02:48  mongod
+drwxrwxr-x. 4 mca mca  4096 Jul 27  2023  mongodata
+drwxr-xr-x. 2 mca mca     6 Aug 22 01:50  mongodata1
+drwxr-xr-x. 2 mca mca     6 Aug 22 01:50  mongodata2
+drwxr-xr-x. 2 mca mca     6 Aug 22 01:50  mongodata3
+drwxr-xr-x. 2 mca mca     6 Apr  7  2022  Music
+drwxr-xr-x. 2 mca mca     6 Apr  7  2022 'netwrk lab'
+drwxr-xr-x. 3 mca mca  4096 Feb  8 05:15  Pictures
+-rwxrwxr-x. 1 mca mca   350 Apr 26  2022  program1.sh
+drwxr-xr-x. 2 mca mca     6 Apr  7  2022  Public
+-rw-rw-r--. 1 mca mca     0 Nov 11  2022  q.c
+-rw-rw-r--. 1 mca mca    41 Mar 13  2023  rush.c
+drwxrwxr-x. 2 mca mca    52 Nov 11  2022  rushdha
+-rw-rw-r--. 1 mca mca  2502 Dec 15  2022  singleLL.c
+-rw-rw-r--. 1 mca mca    39 Apr 12  2022  soorya.txt
+drwxr-xr-x. 2 mca mca     6 Apr  7  2022  Templates
+drwxr-xr-x. 2 mca mca     6 Apr  7  2022  Videos
+[mca@localhost ~]$ ls -a
+ .               .cache         .gitconfig       mongodata2       q.c
+ ..              .config        hello2.txt       mongodata3       rush.c
+ 08_pgm2         .dbshell       hello.txt        .mongorc.js      rushdha
+ 18              Desktop        .ICEauthority    .mozilla         singleLL.c
+ 1.c             Documents      .integer.c.swp   Music            soorya.txt
+ a               Downloads      lab              .mysql_history   .ssh
+ a.out           .esd_auth      .local          'netwrk lab'      .swp
+ .bash_history   factorial.sh   MES              Pictures         Templates
+ .bash_logout    farook         mongod           .pki             Videos
+ .bash_profile   forfact.sh     mongodata        program1.sh      .viminfo
+ .bashrc         .git           mongodata1       Public           .zshrc
+[mca@localhost ~]$ ls -lh
+total 80K
+-rw-r--r--. 1 mca mca 1.6K Mar 28  2023  08_pgm2
+drwxrwxr-x. 2 mca mca    6 Apr 13  2022  18
+-rw-rw-r--. 1 mca mca   64 Nov 18  2022  1.c
+-rw-rw-r--. 1 mca mca    5 Mar 13  2023  a
+-rwxrwxr-x. 1 mca mca  18K Nov 11  2022  a.out
+drwxr-xr-x. 8 mca mca 4.0K Jul 27  2023  Desktop
+drwxr-xr-x. 4 mca mca   39 Sep 19 04:23  Documents
+drwxr-xr-x. 2 mca mca 4.0K Nov 25 03:56  Downloads
+-rwxrwxr-x. 1 mca mca  151 Apr 26  2022  factorial.sh
+drwxr-xr-x. 2 mca mca   67 Sep 15 06:39  farook
+-rwxrwxr-x. 1 mca mca   99 Apr 26  2022  forfact.sh
+-rwxrwxrwx. 1 mca mca   61 Mar 22  2023  hello2.txt
+-rwxrwxrwx. 1 mca mca   67 Mar 22  2023  hello.txt
+drwxrwxr-x. 2 mca mca   99 Apr 12  2023  lab
+drwxrwxr-x. 7 mca mca   60 Mar 14  2023  MES
+drwxr-xr-x. 2 mca mca    6 Aug 22 02:48  mongod
+drwxrwxr-x. 4 mca mca 4.0K Jul 27  2023  mongodata
+drwxr-xr-x. 2 mca mca    6 Aug 22 01:50  mongodata1
+drwxr-xr-x. 2 mca mca    6 Aug 22 01:50  mongodata2
+drwxr-xr-x. 2 mca mca    6 Aug 22 01:50  mongodata3
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022  Music
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 'netwrk lab'
+drwxr-xr-x. 3 mca mca 4.0K Feb  8 05:15  Pictures
+-rwxrwxr-x. 1 mca mca  350 Apr 26  2022  program1.sh
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022  Public
+-rw-rw-r--. 1 mca mca    0 Nov 11  2022  q.c
+-rw-rw-r--. 1 mca mca   41 Mar 13  2023  rush.c
+drwxrwxr-x. 2 mca mca   52 Nov 11  2022  rushdha
+-rw-rw-r--. 1 mca mca 2.5K Dec 15  2022  singleLL.c
+-rw-rw-r--. 1 mca mca   39 Apr 12  2022  soorya.txt
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022  Templates
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022  Videos
+[mca@localhost ~]$ ls -f
+ .               .cache         'netwrk lab'   rushdha      factorial.sh
+ ..              Desktop         lab           q.c          .mysql_history
+ .mozilla        Downloads       .git          singleLL.c   .integer.c.swp
+ .bash_logout    Templates       soorya.txt    rush.c       a.out
+ .bash_profile   Public          18            MES          1.c
+ .bashrc         Documents       .ssh          hello2.txt   a
+ .zshrc          Music           mongodata2    08_pgm2      hello.txt
+ .config         Pictures        farook        .gitconfig   .mongorc.js
+ .esd_auth       Videos          .swp          .viminfo     .dbshell
+ .ICEauthority   .pki            forfact.sh    mongodata1   mongodata
+ .local          .bash_history   program1.sh   mongod       mongodata3
+[mca@localhost ~]$ ls -s
+total 80
+ 4  08_pgm2     4  factorial.sh   4  mongodata     0  Public
+ 0  18          0  farook         0  mongodata1    0  q.c
+ 4  1.c         4  forfact.sh     0  mongodata2    4  rush.c
+ 4  a           4  hello2.txt     0  mongodata3    0  rushdha
+20  a.out       4  hello.txt      0  Music         4  singleLL.c
+ 4  Desktop     0  lab            0 'netwrk lab'   4  soorya.txt
+ 0  Documents   0  MES            4  Pictures      0  Templates
+ 4  Downloads   0  mongod         4  program1.sh   0  Videos
+[mca@localhost ~]$ ls -d
+.
+[mca@localhost ~]$ ls -1
+08_pgm2
+18
+1.c
+a
+a.out
+Desktop
+Documents
+Downloads
+factorial.sh
+farook
+forfact.sh
+hello2.txt
+hello.txt
+lab
+MES
+mongod
+mongodata
+mongodata1
+mongodata2
+mongodata3
+Music
+'netwrk lab'
+Pictures
+program1.sh
+Public
+q.c
+rush.c
+rushdha
+singleLL.c
+soorya.txt
+Templates
+Videos
+[mca@localhost ~]$ ls -t
+ Pictures     mongodata2   hello2.txt   1.c           factorial.sh   Public
+ Downloads    mongodata1   hello.txt    rushdha       18             Templates
+ Documents    mongodata    MES          q.c           soorya.txt
+ farook       Desktop      rush.c       a.out        'netwrk lab'
+ mongod       lab          a            program1.sh   Videos
+ mongodata3   08_pgm2      singleLL.c   forfact.sh    Music
+[mca@localhost ~]$ ^C
+[mca@localhost ~]$ 
+
